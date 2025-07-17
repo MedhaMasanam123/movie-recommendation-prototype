@@ -1,0 +1,17 @@
+[
+  { "title": "The Shawshank Redemption", "genre": "Drama", "rating": 9.2 },
+  { "title": "The Godfather", "genre": "Crime", "rating": 9.1 },
+  { "title": "The Dark Knight", "genre": "Action", "rating": 9.0 },
+  { "title": "Pulp Fiction", "genre": "Crime", "rating": 8.9 },
+  { "title": "Inception", "genre": "Sci-Fi", "rating": 8.8 },
+  { "title": "The Matrix", "genre": "Sci-Fi", "rating": 8.7 },
+  { "title": "Forrest Gump", "genre": "Drama", "rating": 8.8 },
+  { "title": "The Lion King", "genre": "Animation", "rating": 8.5 },
+  { "title": "Jurassic Park", "genre": "Adventure", "rating": 8.1 },
+  { "title": "Titanic", "genre": "Romance", "rating": 7.8 },
+  { "title": "Avatar", "genre": "Sci-Fi", "rating": 7.9 },
+  { "title": "The Avengers", "genre": "Action", "rating": 8.0 },
+  { "title": "Interstellar", "genre": "Sci-Fi", "rating": 8.6 },
+  { "title": "Gladiator", "genre": "Action", "rating": 8.5 },
+  { "title": "The Departed", "genre": "Crime", "rating": 8.5 }
+]
