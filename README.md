@@ -1,12 +1,117 @@
-# React + Vite
+🎬 Movie Recommendation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple full-stack movie recommendation prototype built using React (Vite), Tailwind CSS, Node.js, Express, and a local JSON dataset.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* 🎞️ Display movies from a JSON dataset
+* 🎯 Filter movies by genre
+* ⚡ Fast development with Vite
+* 🎨 Styled using Tailwind CSS
+* 🛠️ Backend REST API using Node.js + Express
+* 🔄 Fetch movies from `http://localhost:3000/api/movies`
+* 🌐 CORS enabled for frontend–backend communication
 
-## Expanding the ESLint configuration
+📁 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+movie-recomm/
+│
+├── server/
+│   └── index.js           # Express backend server
+│
+├── src/
+│   ├── components/
+│   │   ├── GenreSelector.jsx
+│   │   └── MovieList.jsx
+│   ├── data/
+│   │   └── movies.json
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+│── package.json
+│── vite.config.js
+│── README.md
+
+🖥️ Frontend Setup (Vite + React)
+
+1️⃣ Install dependencies
+
+npm install
+
+2️⃣ Run the frontend development server
+
+npm run dev
+
+Frontend will run at →
+👉 **[http://localhost:5173](http://localhost:5173)**
+
+
+
+🛠️ Backend Setup (Node + Express)
+
+1️⃣ Move to the server folder
+
+cd server
+
+2️⃣ Install backend dependencies
+
+npm install express cors
+
+3️⃣ Run the server
+
+node index.js
+
+Backend will run at →
+👉 **[http://localhost:3000](http://localhost:3000)**
+
+
+🔌 API Endpoint
+
+**GET /api/movies**
+
+Returns all movies from `src/data/movies.json`.
+
+
+🌟 Screenshots
+
+🖼️ Home Page
+
+
+## 📦 Technologies Used
+
+* React (Vite)
+* Tailwind CSS
+* Node.js
+* Express
+* CORS
+* JSON dataset
+
+
+## ⚙️ Requirements
+
+* Node.js 18+
+* npm 8+
+
+---
+
+## 📝 How to Run the Full Project
+
+### Start Backend
+
+cd server
+node index.js
+
+### Start Frontend (in another terminal)
+
+npm run dev
+
+🧑‍💻 Developer
+
+Medha Masanam
+GitHub: [https://github.com/MedhaMasanam123](https://github.com/MedhaMasanam123)
+
+⭐ Support
+
+If you liked this project, please give it a **⭐ on GitHub**!
