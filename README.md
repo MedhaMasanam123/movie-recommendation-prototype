@@ -13,7 +13,26 @@ A simple full-stack movie recommendation prototype built using React (Vite), Tai
 * 🌐 CORS enabled for frontend–backend communication
 
 📁 Folder Structure
-
+/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── components/
+│   │   ├── icons/            # Reusable SVG icon components
+│   │   ├── ExampleMessages.tsx
+│   │   ├── HistoryLog.tsx
+│   │   ├── InputForm.tsx
+│   │   ├── ReferencesDisplay.tsx
+│   │   └── ResultDisplay.tsx
+│   ├── services/
+│   │   └── geminiService.ts  # Logic for Gemini API interaction
+│   ├── App.tsx               # Main application component and state management
+│   ├── index.tsx             # React entry point
+│   └── types.ts              # TypeScript type definitions
+├── .env.example              # Environment variable template
+├── index.html                # Main HTML file
+├── package.json
+└── README.md
 movie-recomm/
 │
 ├── server/
