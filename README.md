@@ -16,20 +16,21 @@ A simple full-stack movie recommendation prototype built using React (Vite), Tai
 
 movie-recomm/
 ├── server/
-│ └── index.js # Express backend server
+│   └── index.js
 ├── src/
-│ ├── components/
-│ │ ├── GenreSelector.jsx
-│ │ └── MovieList.jsx
-│ ├── data/
-│ │ └── movies.json
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
+│   ├── components/
+│   │   ├── GenreSelector.jsx
+│   │   └── MovieList.jsx
+│   ├── data/
+│   │   └── movies.json
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
 ├── public/
 ├── package.json
 ├── vite.config.js
 └── README.md
+
 
 
 
